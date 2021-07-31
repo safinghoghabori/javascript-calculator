@@ -13,10 +13,10 @@ body {
 }
 .inputBox {
   text-align: center;
-  font-size: 20px;
 }
 input[type="text"] {
   padding: 5px;
+  font-size: 20px;
   width: 250px;
 }
 
