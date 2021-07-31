@@ -1,0 +1,42 @@
+body {
+  background-color: #66aeec;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin-top: 100px;
+}
+.inputBox {
+  text-align: center;
+  font-size: 20px;
+}
+input[type="text"] {
+  padding: 5px;
+  width: 250px;
+}
+
+button {
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btn__parent {
+  margin-top: 10px;
+  text-align: center;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(1, 300px);
+  justify-content: center;
+  align-content: center;
+}
+
+button {
+  width: 70px;
+  padding: 10px;
+}
